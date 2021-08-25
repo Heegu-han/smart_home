@@ -21,7 +21,7 @@ def stream():
         
     except Exception as e :
         
-        print('[wandlab] ', 'stream error : ',str(e))
+        print('stream error : ',str(e))
 
 def stream_gen( src ):   
   
