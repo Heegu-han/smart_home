@@ -12,7 +12,7 @@ class Streamer :
         
         if cv2.ocl.haveOpenCL() :
             cv2.ocl.setUseOpenCL(True)
-        print('[wandlab] ', 'OpenCL : ', cv2.ocl.haveOpenCL())
+        print('OpenCL : ', cv2.ocl.haveOpenCL())
             
         self.capture = None
         self.thread = None
